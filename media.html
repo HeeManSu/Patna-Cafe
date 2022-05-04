@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+
+</head>
+<style>
+    .box{
+        background-color: red;
+        color: black;
+        text-align: center;
+        font-size: 72px;
+        color: white;
+        display: none;
+    }
+    @media (max-width:300px) {
+        #box-1{
+            display: block;
+        }
+    }   
+   
+ </style>
+<body> 
+       <div class="box" id="box-1">I am a smartphone</div>
+       <div class="box" id="box-2">I am a tablet</div>
+       <div class="box" id="box-3">I am a computer</div>
+       <div class="box" id="box-4"> I am a displayy of computer</div>
+       <div class="box" id="box-5">I am iphone</div>
+</body>
+
+</html>
